@@ -1,3 +1,16 @@
 p {
     color:green;
 }
+#cabecera{
+    font-size: 100px;
+    position: absolute;
+    top: 2%;
+    height: 10%;
+    width: 93%;
+}
+.b{
+    background-color: yellow;
+}
+.a{
+    background-color: red;
+}
