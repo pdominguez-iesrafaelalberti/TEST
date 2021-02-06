@@ -1,3 +1,8 @@
+
+
+
+
+/**
 #contenedor {
     width: 700px;
 }
@@ -15,18 +20,18 @@
     display: block;
     margin: auto;
 }
-
+*/
 
 /**
     Cabecera (HEADER, no head)
 */
-
+/**
 #cabecera img {
     max-height: 100%;
     min-height: 20%;
     width: 60px;
 	/* agrego lo siguiente */
-	background-color: red;
+/**	background-color: red;
 }
 
 #cabecera h1 {
@@ -47,7 +52,7 @@
 /**
     Zona MENU Navegador
 */
-
+/**
 #nav {
     float: left;
     position: fixed;
@@ -72,7 +77,7 @@
 
 
 /* Atributo active */
-
+/**
 #nav ul a.active {
     background-color: #4CAF50;
     color: white;
@@ -80,7 +85,7 @@
 
 
 /* Cuando se pasa por encima el ratón */
-
+/**
 #nav ul a:hover:not(.active) {
     background-color: rgb(82, 7, 112);
     color: white;
@@ -90,7 +95,7 @@
 /**
     Zona Contenido
 */
-
+/***
 #contenido {
     float: left;
     width: 550px;
@@ -101,7 +106,7 @@
 
 
 /** FORMULARIO */
-
+/*****
 form {
     width: 300px;
     padding: 16px;
@@ -141,7 +146,7 @@ form input[type="submit"] {
 form input[type="submit"]:hover {
     cursor: pointer;
 }
-
+/****
 textarea {
     width: 100%;
     height: 100px;
@@ -150,7 +155,7 @@ textarea {
     background-color: #f6f6f6;
     margin: 8px 0;
     /*resize: vertical | horizontal | none | both*/
-    resize: none;
+    /**resize: none;
     display: block;
 }
 
@@ -160,7 +165,7 @@ textarea {
   ZONA PIE DE PAGINA
 
 */
-
+/****
 #pie {
     clear: both;
     position: fixed;
@@ -183,7 +188,7 @@ textarea {
 
 
 /** Responsive */
-
+/****
 @media screen and (max-width: 700px) {
     #contenido {
         margin-top: 100px;
@@ -236,5 +241,5 @@ textarea {
         position: fixed;
         top: 81px;
         left: 28px;
-    }
+    }*/
 }
